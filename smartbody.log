@@ -1,0 +1,208 @@
+max Items per grid cell = 20
+max Items per grid cell = 20
+INIT STEERSIM
+INIT STEERSIM
+LOADING STEERSIM
+LOADING STEERSIM
+No characters set up with steering. Steering will need to be restarted when new characters are available.
+No characters set up with steering. Steering will need to be restarted when new characters are available.
+STARTING STEERSIM
+STARTING STEERSIM
+collisionShape = sphere
+collisionShape = sphere
+collisionShape = sphere
+collisionShape = sphere
+collisionShape = sphere
+collisionShape = sphere
+collisionShape = sphere
+collisionShape = sphere
+No skeleton found for file ChrRachel.sk.
+No skeleton found for file ChrRachel.sk.
+No skeleton found for file GraveDigger1.sk.
+No skeleton found for file GraveDigger1.sk.
+No skeleton found for file GraveDigger1.sk.
+No skeleton found for file GraveDigger1.sk.
+Face neutral motion is now 'ChrBrad@face_neutral'.
+Face neutral motion is now 'ChrBrad@face_neutral'.
+Character GraveDigger1 will use FAC 45 left and right to control blinking.
+Character GraveDigger1 will use FAC 45 left and right to control blinking.
+MeCtFace::remove_joint ERR: joint 'eyeball_left' NOT FOUND
+
+MeCtFace::remove_joint ERR: joint 'eyeball_left' NOT FOUND
+
+MeCtFace::remove_joint ERR: joint 'eyeball_right' NOT FOUND
+
+MeCtFace::remove_joint ERR: joint 'eyeball_right' NOT FOUND
+
+Motion ChrBrad_ChrMarine@Idle01 (0.0, 2.033263371e-07, 0)
+Motion ChrBrad_ChrMarine@Idle01 (0.0, 2.033263371e-07, 0)
+Motion ChrBrad_ChrMarine@Jog01 (2.29111027718, -0.180942177773, 0)
+Motion ChrBrad_ChrMarine@Jog01 (2.29111027718, -0.180942177773, 0)
+Motion ChrBrad_ChrMarine@Meander01 (0.887988746166, 0.0438136979938, 0)
+Motion ChrBrad_ChrMarine@Meander01 (0.887988746166, 0.0438136979938, 0)
+Motion ChrBrad_ChrMarine@Run01 (4.06869316101, 1.13766098022, 0)
+Motion ChrBrad_ChrMarine@Run01 (4.06869316101, 1.13766098022, 0)
+Motion ChrBrad_ChrMarine@RunCircleLf01_smooth (2.4174823761, 75.4142227173, 0)
+Motion ChrBrad_ChrMarine@RunCircleLf01_smooth (2.4174823761, 75.4142227173, 0)
+Motion ChrBrad_ChrMarine@RunCircleRt01_smooth (2.4174823761, -75.4142379761, 0)
+Motion ChrBrad_ChrMarine@RunCircleRt01_smooth (2.4174823761, -75.4142379761, 0)
+Motion ChrBrad_ChrMarine@RunTightCircleLf01 (1.7815464735, 132.766036987, 0)
+Motion ChrBrad_ChrMarine@RunTightCircleLf01 (1.7815464735, 132.766036987, 0)
+Motion ChrBrad_ChrMarine@RunTightCircleRt01 (1.7815464735, -132.766021729, 0)
+Motion ChrBrad_ChrMarine@RunTightCircleRt01 (1.7815464735, -132.766021729, 0)
+Motion ChrBrad_ChrMarine@StrafeSlowLf01 (0.358832836151, 0.00646027270705, 0.357489556074)
+Motion ChrBrad_ChrMarine@StrafeSlowLf01 (0.358832836151, 0.00646027270705, 0.357489556074)
+Motion ChrBrad_ChrMarine@StrafeSlowRt01 (0.358832836151, -0.0064602047205, -0.357489556074)
+Motion ChrBrad_ChrMarine@StrafeSlowRt01 (0.358832836151, -0.0064602047205, -0.357489556074)
+Motion ChrBrad_ChrMarine@Walk01 (1.15883994102, 0.0191956479102, 0)
+Motion ChrBrad_ChrMarine@Walk01 (1.15883994102, 0.0191956479102, 0)
+Motion ChrBrad_ChrMarine@WalkCircleLf01_smooth (0.832662045956, 44.1770744324, 0)
+Motion ChrBrad_ChrMarine@WalkCircleLf01_smooth (0.832662045956, 44.1770744324, 0)
+Motion ChrBrad_ChrMarine@WalkCircleRt01_smooth (0.832662045956, -44.1770820618, 0)
+Motion ChrBrad_ChrMarine@WalkCircleRt01_smooth (0.832662045956, -44.1770820618, 0)
+Motion ChrBrad_ChrMarine@WalkTightCircleLf01_smooth (0.570613920689, 93.9558563232, 0)
+Motion ChrBrad_ChrMarine@WalkTightCircleLf01_smooth (0.570613920689, 93.9558563232, 0)
+Motion ChrBrad_ChrMarine@WalkTightCircleRt01_smooth (0.570613920689, -93.955871582, 0)
+Motion ChrBrad_ChrMarine@WalkTightCircleRt01_smooth (0.570613920689, -93.955871582, 0)
+Motion ChrBrad_ChrMarine@Turn360Lf01 (0.395190954208, 167.267425537, 0)
+Motion ChrBrad_ChrMarine@Turn360Lf01 (0.395190954208, 167.267425537, 0)
+Motion ChrBrad_ChrMarine@Turn360Rt01 (0.395190954208, -167.267440796, 0)
+Motion ChrBrad_ChrMarine@Turn360Rt01 (0.395190954208, -167.267440796, 0)
+Motion ChrBrad_ChrMarine@StrafeFastLf01_smooth (2.12724113464, -0.233187645674, 2.10883188248)
+Motion ChrBrad_ChrMarine@StrafeFastLf01_smooth (2.12724113464, -0.233187645674, 2.10883188248)
+Motion ChrBrad_ChrMarine@StrafeFastRt01_smooth (2.12724113464, 0.233185186982, -2.10883188248)
+Motion ChrBrad_ChrMarine@StrafeFastRt01_smooth (2.12724113464, 0.233185186982, -2.10883188248)
+Steer agent with name GraveDigger1 does not exist.
+Steer agent with name GraveDigger1 does not exist.
+GraveDigger1: Steering works under standard config.
+GraveDigger1: Steering works under standard config.
+Traceback (most recent call last):
+
+Traceback (most recent call last):
+
+  File "<string>", line 1, in <module>
+
+  File "<string>", line 1, in <module>
+
+AttributeError
+AttributeError
+: 
+: 
+'SBCharacter' object has no attribute 'setSteerAgent'
+'SBCharacter' object has no attribute 'setSteerAgent'
+max Items per grid cell = 20
+max Items per grid cell = 20
+INIT STEERSIM
+INIT STEERSIM
+LOADING STEERSIM
+LOADING STEERSIM
+Setting up steering agent for character GraveDigger1
+Setting up steering agent for character GraveDigger1
+STARTING STEERSIM
+STARTING STEERSIM
+Skeleton  not found. Mirror motion ChrBrad_ChrBillFord_Idle01_LReachCntr01 not built.
+Skeleton  not found. Mirror motion ChrBrad_ChrBillFord_Idle01_LReachCntr01 not built.
+Character : GraveDigger1, no reach engine initialized.
+Character : GraveDigger1, no reach engine initialized.
+SB - init-reach-grasp.py
+SB - init-reach-grasp.py
+Traceback (most recent call last):
+
+Traceback (most recent call last):
+
+  File "<string>", line 1, in <module>
+
+  File "<string>", line 1, in <module>
+
+  File "Y:/Documents/GitHubFiles/UNCCPhDResearchTalbot/UnityProject/Assets/StreamingAssets/SB/init-reach-grasp.py", line 8, in <module>
+
+  File "Y:/Documents/GitHubFiles/UNCCPhDResearchTalbot/UnityProject/Assets/StreamingAssets/SB/init-reach-grasp.py", line 8, in <module>
+
+    
+    
+class GraspHandler(EventHandler):
+
+class GraspHandler(EventHandler):
+
+NameError
+NameError
+: 
+: 
+name 'EventHandler' is not defined
+name 'EventHandler' is not defined
+MeCtSaccade::initBufferIndex ERR: channel id not correct!
+MeCtSaccade::initBufferIndex ERR: channel id not correct!
+No gazing channels found.
+No gazing channels found.
+MeCtGaze:: ERR: 'spine1' NOT FOUND in skeleton
+MeCtGaze:: ERR: 'spine1' NOT FOUND in skeleton
+MeCtGaze:: ERR: 'spine2' NOT FOUND in skeleton
+MeCtGaze:: ERR: 'spine2' NOT FOUND in skeleton
+MeCtGaze:: ERR: 'spine3' NOT FOUND in skeleton
+MeCtGaze:: ERR: 'spine3' NOT FOUND in skeleton
+MeCtGaze:: ERR: 'spine4' NOT FOUND in skeleton
+MeCtGaze:: ERR: 'spine4' NOT FOUND in skeleton
+MeCtGaze:: ERR: 'spine5' NOT FOUND in skeleton
+MeCtGaze:: ERR: 'spine5' NOT FOUND in skeleton
+MeCtGaze:: ERR: 'skullbase' NOT FOUND in skeleton
+MeCtGaze:: ERR: 'skullbase' NOT FOUND in skeleton
+MeCtGaze:: ERR: 'eyeball_left' NOT FOUND in skeleton
+MeCtGaze:: ERR: 'eyeball_left' NOT FOUND in skeleton
+MeCtGaze:: ERR: 'eyeball_right' NOT FOUND in skeleton
+MeCtGaze:: ERR: 'eyeball_right' NOT FOUND in skeleton
+SBM ERR: command NOT FOUND: 'bml123 char GraveDigger1 <locomotion target="100 200" type="basic" manner="sbm:step" />'> 
+SBM ERR: command NOT FOUND: 'bml123 char GraveDigger1 <locomotion target="100 200" type="basic" manner="sbm:step" />'> 
+SBM ERR: command NOT FOUND: 'bml123 char GraveDigger1 <locomotion target="100 200" type="basic" manner="sbm:step" />'> 
+SBM ERR: command NOT FOUND: 'bml123 char GraveDigger1 <locomotion target="100 200" type="basic" manner="sbm:step" />'> 
+Duplicate BML Request Message ID: GraveDigger1|sbm_test_bml_6
+Duplicate BML Request Message ID: GraveDigger1|sbm_test_bml_6
+Duplicate BML Request Message ID: GraveDigger1|sbm_test_bml_8
+Duplicate BML Request Message ID: GraveDigger1|sbm_test_bml_8
+Duplicate BML Request Message ID: GraveDigger1|sbm_test_bml_10
+Duplicate BML Request Message ID: GraveDigger1|sbm_test_bml_10
+Duplicate BML Request Message ID: GraveDigger1|sbm_test_bml_12
+Duplicate BML Request Message ID: GraveDigger1|sbm_test_bml_12
+Duplicate BML Request Message ID: GraveDigger1|sbm_test_bml_14
+Duplicate BML Request Message ID: GraveDigger1|sbm_test_bml_14
+Duplicate BML Request Message ID: GraveDigger1|sbm_test_bml_16
+Duplicate BML Request Message ID: GraveDigger1|sbm_test_bml_16
+SBM ERR: command NOT FOUND: 'test123 bml char GraveDigger1 anim ChrBrad@Guitar01'> 
+SBM ERR: command NOT FOUND: 'test123 bml char GraveDigger1 anim ChrBrad@Guitar01'> 
+SBM ERR: command NOT FOUND: 'test123 bml char GraveDigger1 anim ChrBrad@Guitar01'> 
+SBM ERR: command NOT FOUND: 'test123 bml char GraveDigger1 anim ChrBrad@Guitar01'> 
+No character named ''.
+No character named ''.
+SBM ERR: command FAILED: 'bml 12345 char GraveDigger1 anim ChrBrad@Guitar01'> 
+SBM ERR: command FAILED: 'bml 12345 char GraveDigger1 anim ChrBrad@Guitar01'> 
+No character named ''.
+No character named ''.
+SBM ERR: command FAILED: 'bml 12345 char GraveDigger1 anim ChrBrad@Guitar01'> 
+SBM ERR: command FAILED: 'bml 12345 char GraveDigger1 anim ChrBrad@Guitar01'> 
+Duplicate BML Request Message ID: GraveDigger1|sbm_test_bml_18
+Duplicate BML Request Message ID: GraveDigger1|sbm_test_bml_18
+Duplicate BML Request Message ID: GraveDigger1|sbm_test_bml_20
+Duplicate BML Request Message ID: GraveDigger1|sbm_test_bml_20
+Duplicate BML Request Message ID: GraveDigger1|123455
+Duplicate BML Request Message ID: GraveDigger1|123455
+Duplicate BML Request Message ID: GraveDigger1|1234995
+Duplicate BML Request Message ID: GraveDigger1|1234995
+Duplicate BML Request Message ID: GraveDigger1|sbm_test_bml_22
+Duplicate BML Request Message ID: GraveDigger1|sbm_test_bml_22
+No gazing channels found.
+No gazing channels found.
+MeCtGaze:: ERR: 'spine1' NOT FOUND in skeleton
+MeCtGaze:: ERR: 'spine1' NOT FOUND in skeleton
+MeCtGaze:: ERR: 'spine2' NOT FOUND in skeleton
+MeCtGaze:: ERR: 'spine2' NOT FOUND in skeleton
+MeCtGaze:: ERR: 'spine3' NOT FOUND in skeleton
+MeCtGaze:: ERR: 'spine3' NOT FOUND in skeleton
+MeCtGaze:: ERR: 'spine4' NOT FOUND in skeleton
+MeCtGaze:: ERR: 'spine4' NOT FOUND in skeleton
+MeCtGaze:: ERR: 'spine5' NOT FOUND in skeleton
+MeCtGaze:: ERR: 'spine5' NOT FOUND in skeleton
+MeCtGaze:: ERR: 'skullbase' NOT FOUND in skeleton
+MeCtGaze:: ERR: 'skullbase' NOT FOUND in skeleton
+MeCtGaze:: ERR: 'eyeball_left' NOT FOUND in skeleton
+MeCtGaze:: ERR: 'eyeball_left' NOT FOUND in skeleton
+MeCtGaze:: ERR: 'eyeball_right' NOT FOUND in skeleton
+MeCtGaze:: ERR: 'eyeball_right' NOT FOUND in skeleton

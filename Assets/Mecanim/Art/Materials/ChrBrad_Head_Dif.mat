@@ -1,0 +1,179 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: ChrBrad_Head_Dif
+  m_Shader: {fileID: 7, guid: 0000000000000000e000000000000000, type: 0}
+  m_ShaderKeywords: []
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 62945b1c9292bf443aa7efb7e58919b9, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Albedo
+        second:
+          m_Texture: {fileID: 2800000, guid: 62945b1c9292bf443aa7efb7e58919b9, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _NormalR
+        second:
+          m_Texture: {fileID: 2800000, guid: 1f6644f317666d647b2dc75c718ac4e4, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _NormalG
+        second:
+          m_Texture: {fileID: 2800000, guid: cde556eb361d7a94489cbe74e4a8a28c, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _NormalB
+        second:
+          m_Texture: {fileID: 2800000, guid: 741a24e963e89a041afe29abd3e8df25, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _NormalS
+        second:
+          m_Texture: {fileID: 2800000, guid: a6175c0508ef3df40a21f09947aa77c0, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Albedo1
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _NormalS1
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Albedo2
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _NormalS2
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Mask1
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Mask2
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Mask12
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _DiffuseIntensity
+        second: 1
+      data:
+        first:
+          name: _SpecularIntensity
+        second: 1
+      data:
+        first:
+          name: _SpecularExponent
+        second: 25.7692299
+      data:
+        first:
+          name: _Asperity
+        second: 1
+      data:
+        first:
+          name: _Weight1R
+        second: 0
+      data:
+        first:
+          name: _Weight1G
+        second: 0
+      data:
+        first:
+          name: _Weight1B
+        second: 0
+      data:
+        first:
+          name: _Weight1A
+        second: 0
+      data:
+        first:
+          name: _Weight2R
+        second: 0
+      data:
+        first:
+          name: _Weight2G
+        second: 0
+      data:
+        first:
+          name: _Weight2B
+        second: 0
+      data:
+        first:
+          name: _Weight2A
+        second: 0
+      data:
+        first:
+          name: _Weight12R
+        second: 0
+      data:
+        first:
+          name: _Weight12G
+        second: 0
+      data:
+        first:
+          name: _Weight12B
+        second: 0
+      data:
+        first:
+          name: _Weight12A
+        second: 0
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: .501960814, g: .501960814, b: .501960814, a: 1}

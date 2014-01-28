@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{5B580621-09B4-68CB-B5F4-5B9DD210A60F}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_2_1;UNITY_4_2;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity4/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity4/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\InitBrad.cs" />
+     <Compile Include="Assets\Scripts\InitBradFace.cs" />
+     <Compile Include="Assets\Scripts\InitGraveDigger1.cs" />
+     <Compile Include="Assets\Scripts\InitGraveDigger1Face.cs" />
+     <Compile Include="Assets\Scripts\InitMapMixamo.cs" />
+     <Compile Include="Assets\Scripts\InitMapMonster.cs" />
+     <Compile Include="Assets\Scripts\InitMapZebra2.cs" />
+     <Compile Include="Assets\Scripts\InitSmartbody.cs" />
+     <Compile Include="Assets\Scripts\Main.cs" />
+     <Compile Include="Assets\Scripts\MainMenu.cs" />
+     <Compile Include="Assets\Scripts\MessageBrokerMain.cs" />
+     <Compile Include="Assets\Scripts\SpeechBox_Web.cs" />
+     <Compile Include="Assets\Scripts\VHMsgEmulatorServer.cs" />
+     <Compile Include="Assets\Scripts\VHMsgWebRequestMain.cs" />
+     <Compile Include="Assets\vhAssets\AG\AGAffectFbx.cs" />
+     <Compile Include="Assets\vhAssets\AG\AGBrightnessEffect.cs" />
+     <Compile Include="Assets\vhAssets\AG\AGSaturationEffect.cs" />
+     <Compile Include="Assets\vhAssets\Machinima\Scripts\Curve\Curve.cs" />
+     <Compile Include="Assets\vhAssets\Machinima\Scripts\Curve\CurvePoint.cs" />
+     <Compile Include="Assets\vhAssets\Machinima\Scripts\Cutscene\Cutscene.cs" />
+     <Compile Include="Assets\vhAssets\Machinima\Scripts\Cutscene\CutsceneDebugPlayer.cs" />
+     <Compile Include="Assets\vhAssets\Machinima\Scripts\Cutscene\CutsceneManager.cs" />
+     <Compile Include="Assets\vhAssets\Machinima\Scripts\Cutscene\CutsceneTrackGroup.cs" />
+     <Compile Include="Assets\vhAssets\Machinima\Scripts\Cutscene\CutsceneTrackGroupManager.cs" />
+     <Compile Include="Assets\vhAssets\Machinima\Scripts\Cutscene\CutsceneTrackItem.cs" />
+     <Compile Include="Assets\vhAssets\Machinima\Scripts\Events\AnimationEvents.cs" />
+     <Compile Include="Assets\vhAssets\Machinima\Scripts\Events\AudioEvents.cs" />
+     <Compile Include="Assets\vhAssets\Machinima\Scripts\Events\CameraEvents.cs" />
+     <Compile Include="Assets\vhAssets\Machinima\Scripts\Events\CommonEvents.cs" />
+     <Compile Include="Assets\vhAssets\Machinima\Scripts\Events\CutsceneEvent.cs" />
+     <Compile Include="Assets\vhAssets\Machinima\Scripts\Events\EventDefinitions.cs" />
+     <Compile Include="Assets\vhAssets\Machinima\Scripts\Events\EventRecorder.cs" />
+     <Compile Include="Assets\vhAssets\Machinima\Scripts\Events\GenericEvents.cs" />
+     <Compile Include="Assets\vhAssets\Machinima\Scripts\Events\ICutsceneEventInterface.cs" />
+     <Compile Include="Assets\vhAssets\Machinima\Scripts\Events\RendererEvents.cs" />
+     <Compile Include="Assets\vhAssets\Machinima\Scripts\Events\SmartBodyEvents.cs" />
+     <Compile Include="Assets\vhAssets\Machinima\Scripts\Events\TimedEvents.cs" />
+     <Compile Include="Assets\vhAssets\mecanim\Scripts\FaceFXControllerScript.cs" />
+     <Compile Include="Assets\vhAssets\mecanim\Scripts\MecanimCharacter.cs" />
+     <Compile Include="Assets\vhAssets\mecanim\Scripts\MecanimManager.cs" />
+     <Compile Include="Assets\vhAssets\mecanim\Scripts\WordBreakInfo.cs" />
+     <Compile Include="Assets\vhAssets\performance\VHTimeDemo.cs" />
+     <Compile Include="Assets\vhAssets\sbm\BoneBusServer.cs" />
+     <Compile Include="Assets\vhAssets\sbm\SmartbodyCharacterInit.cs" />
+     <Compile Include="Assets\vhAssets\sbm\SmartbodyExternals.cs" />
+     <Compile Include="Assets\vhAssets\sbm\SmartbodyFaceDefinition.cs" />
+     <Compile Include="Assets\vhAssets\sbm\SmartbodyInit.cs" />
+     <Compile Include="Assets\vhAssets\sbm\SmartbodyJointMap.cs" />
+     <Compile Include="Assets\vhAssets\sbm\SmartbodyManager.cs" />
+     <Compile Include="Assets\vhAssets\sbm\SmartbodyManagerBoneBus.cs" />
+     <Compile Include="Assets\vhAssets\sbm\SmartbodyManagerBoneBusEmulator.cs" />
+     <Compile Include="Assets\vhAssets\sbm\SmartbodyNetwork.cs" />
+     <Compile Include="Assets\vhAssets\sbm\SmartbodyPawn.cs" />
+     <Compile Include="Assets\vhAssets\sbm\UnitySmartbodyCharacter.cs" />
+     <Compile Include="Assets\vhAssets\ui\MessageQueue.cs" />
+     <Compile Include="Assets\vhAssets\ui\PopUp.cs" />
+     <Compile Include="Assets\vhAssets\ui\PopUpManager.cs" />
+     <Compile Include="Assets\vhAssets\ui\TipPopUp.cs" />
+     <Compile Include="Assets\vhAssets\vhmsg\VHMsgBase.cs" />
+     <Compile Include="Assets\vhAssets\vhmsg\VHMsgEmulator.cs" />
+     <Compile Include="Assets\vhAssets\vhmsg\VHMsgManager.cs" />
+     <Compile Include="Assets\vhAssets\vhmsg\VHMsgNetwork.cs" />
+     <Compile Include="Assets\vhAssets\vhmsg\VHMsgWebRequest.cs" />
+     <Compile Include="Assets\vhAssets\vhutils\AudioBank.cs" />
+     <Compile Include="Assets\vhAssets\vhutils\BMLEventHandler.cs" />
+     <Compile Include="Assets\vhAssets\vhutils\BMLEventHandler_Web.cs" />
+     <Compile Include="Assets\vhAssets\vhutils\BMLParser.cs" />
+     <Compile Include="Assets\vhAssets\vhutils\Character.cs" />
+     <Compile Include="Assets\vhAssets\vhutils\DebugConsole.cs" />
+     <Compile Include="Assets\vhAssets\vhutils\FpsCounter.cs" />
+     <Compile Include="Assets\vhAssets\vhutils\FrameRecorder.cs" />
+     <Compile Include="Assets\vhAssets\vhutils\FreeMouseLook.cs" />
+     <Compile Include="Assets\vhAssets\vhutils\GlobalsLoader.cs" />
+     <Compile Include="Assets\vhAssets\vhutils\ICharacterController.cs" />
+     <Compile Include="Assets\vhAssets\vhutils\IniParser.cs" />
+     <Compile Include="Assets\vhAssets\vhutils\IntPtrExtensions.cs" />
+     <Compile Include="Assets\vhAssets\vhutils\LoadingScreen.cs" />
+     <Compile Include="Assets\vhAssets\vhutils\LocomotionData.cs" />
+     <Compile Include="Assets\vhAssets\vhutils\NPCEditorMessageBroker.cs" />
+     <Compile Include="Assets\vhAssets\vhutils\OrderedBehaviour.cs" />
+     <Compile Include="Assets\vhAssets\vhutils\OrderedBehaviourManager.cs" />
+     <Compile Include="Assets\vhAssets\vhutils\PluginsFolderRedirect.cs" />
+     <Compile Include="Assets\vhAssets\vhutils\PublicNode.cs" />
+     <Compile Include="Assets\vhAssets\vhutils\StreamingAssetsExtract.cs" />
+     <Compile Include="Assets\vhAssets\vhutils\TimelineObject.cs" />
+     <Compile Include="Assets\vhAssets\vhutils\Utils.cs" />
+     <Compile Include="Assets\vhAssets\vhutils\VHBehaviour.cs" />
+     <Compile Include="Assets\vhAssets\vhutils\VHBehaviourManager.cs" />
+     <Compile Include="Assets\vhAssets\vhutils\VHBinaryParser.cs" />
+     <Compile Include="Assets\vhAssets\vhutils\VHCLAudioManager.cs" />
+     <Compile Include="Assets\vhAssets\vhutils\VHGUI.cs" />
+     <Compile Include="Assets\vhAssets\vhutils\VHMain.cs" />
+     <Compile Include="Assets\vhAssets\vhutils\VHSpeechRecognizer.cs" />
+     <Compile Include="Assets\vhAssets\vhutils\VHWayPointNavigator.cs" />
+     <None Include="Assets\vhAssets\shaders\AGDoubleSidedDiffuseAlpha.shader" />
+     <None Include="Assets\vhAssets\shaders\AGDiffuseSpecularNormalAlpha.shader" />
+     <None Include="Assets\Mecanim\bradFaceFX.xml" />
+     <None Include="Assets\vhAssets\shaders\AGDiffuseSpecularNormal.shader" />
+     <None Include="Assets\vhAssets\shaders\ICT_HybridNormalShader_v2.shader" />
+     <None Include="Assets\StreamingAssets\Sounds\z_viseme_test2.txt" />
+     <None Include="Assets\vhAssets\shaders\AGAnisotropicDoubleSidedDiffuseNormalAlphaTest.shader" />
+     <None Include="Assets\vhAssets\shaders\ICT_HybridNormalShader_v3.shader" />
+     <None Include="Assets\vhAssets\shaders\AGEye.shader" />
+     <None Include="Assets\vhAssets\shaders\AGDiffuseSpecularNormalDark.shader" />
+     <None Include="Assets\vhAssets\shaders\AGEffectBrightness.shader" />
+     <None Include="Assets\StreamingAssets\fileListExtract.txt" />
+     <None Include="Assets\vhAssets\shaders\AGDoubleSidedDiffuse.shader" />
+     <None Include="Assets\vhAssets\shaders\AGInvisibleShadowCaster.shader" />
+     <None Include="Assets\vhAssets\shaders\AGDoubleSidedDiffuseAlphaTest.shader" />
+     <None Include="Assets\vhAssets\shaders\AGAnisotropicDiffuseNormalAlphaTest.shader" />
+     <None Include="Assets\vhAssets\shaders\AGEyeShell.shader" />
+     <None Include="Assets\vhAssets\shaders\ICT_EyeShader_with_cubemap.shader" />
+     <None Include="Assets\vhAssets\shaders\ICT_HybridNormalShader_v4_BlendShapes.shader" />
+     <None Include="Assets\StreamingAssets\Sounds\brad_fullname.txt" />
+     <None Include="Assets\vhAssets\shaders\ICT_HybridNormalShader_v3_BlendShapes.shader" />
+     <None Include="Assets\vhAssets\shaders\AGEffectSaturation.shader" />
+     <None Include="Assets\StreamingAssets\fileList.txt" />
+ <Reference Include="Apache.NMS.ActiveMQ">
+ <HintPath>Assets\Plugins\Apache.NMS.ActiveMQ.dll</HintPath>
+ </Reference>
+ <Reference Include="Apache.NMS">
+ <HintPath>Assets\Plugins\Apache.NMS.dll</HintPath>
+ </Reference>
+ <Reference Include="Ionic.Zlib">
+ <HintPath>Assets\Plugins\Ionic.Zlib.dll</HintPath>
+ </Reference>
+ <Reference Include="vhmsg-net">
+ <HintPath>Assets\Plugins\vhmsg-net.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

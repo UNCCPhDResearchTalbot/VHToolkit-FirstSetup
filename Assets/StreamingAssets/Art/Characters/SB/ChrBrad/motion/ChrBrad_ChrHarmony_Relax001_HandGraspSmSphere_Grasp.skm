@@ -1,0 +1,72 @@
+SkMotion
+
+name "ChrBrad_ChrHarmony_Relax001_HandGraspSmSphere_Grasp"
+
+channels 59
+base XPos
+base YPos
+base ZPos
+base Quat
+l_hip Quat
+l_knee Quat
+l_ankle Quat
+l_forefoot Quat
+l_toe Quat
+r_hip Quat
+r_knee Quat
+r_ankle Quat
+r_forefoot Quat
+r_toe Quat
+spine1 Quat
+spine2 Quat
+spine3 Quat
+spine4 Quat
+skullbase Quat
+l_sternoclavicular Quat
+l_shoulder Quat
+l_elbow Quat
+l_forearm Quat
+l_wrist Quat
+l_thumb1 Quat
+l_thumb2 Quat
+l_thumb3 Quat
+l_index1 Quat
+l_index2 Quat
+l_index3 Quat
+l_middle1 Quat
+l_middle2 Quat
+l_middle3 Quat
+l_ring1 Quat
+l_ring2 Quat
+l_ring3 Quat
+l_pinky1 Quat
+l_pinky2 Quat
+l_pinky3 Quat
+r_sternoclavicular Quat
+r_shoulder Quat
+r_elbow Quat
+r_forearm Quat
+r_wrist Quat
+r_thumb1 Quat
+r_thumb2 Quat
+r_thumb3 Quat
+r_index1 Quat
+r_index2 Quat
+r_index3 Quat
+r_middle1 Quat
+r_middle2 Quat
+r_middle3 Quat
+r_ring1 Quat
+r_ring2 Quat
+r_ring3 Quat
+r_pinky1 Quat
+r_pinky2 Quat
+r_pinky3 Quat
+frames 1
+kt 0.0 fr 0 0 0 -0.031456 0 0 -0.058908 -0.004523 0.073955 0.000000 0.000000 -0.141338 0.000280 0.010551 -0.028600 0 0 0 0 0 0 -0.046658 -0.003582 0.073998 0.000000 -0.000000 -0.141439 0.000221 0.008360 -0.028608 0 0 0 0 0 0 0.000000 -0.000000 0.039294 -0.000000 0.000000 0.034075 -0.000000 -0.000000 0.050149 0.000000 -0.000000 -0.103801 0.000000 -0.000000 0.097659 0 0 0 0.162318 -0.699855 0.093218 -0.005837 0.013881 0.062680 0 0 0 0.000258 -0.033215 -0.016862 0.050162 -0.295050 0.747967 0.000000 0.028954 -0.491214 0.000000 -0.010552 -0.117610 0.013495 -0.031034 0.188161 0.019217 0.010108 0.088251 0.025045 0.077130 0.078166 0.011138 -0.069357 0.250714 0.025420 0.055231 -0.027555 0.017812 -0.009594 0.132377 0.016637 -0.057363 0.171428 0.018066 -0.038848 0.146609 0.021224 0.008741 0.016415 0.021206 0.012400 0.142400 0.013236 -0.079357 0.155163 0.028111 0.089690 -0.011181 0 0 0 -0.022727 -0.262000 1.129550 0.576168 0.168334 0.105322 0 0 0 0.302165 0.191567 0.066509 0.562308 0.271274 0.806412 0.008678 0.150653 -0.331105 -0.059558 0.390933 0.418929 0.188851 0.249482 1.190704 0.147390 0.156899 0.845798 0.279687 0.317826 1.354572 0.016532 0.079054 1.312181 0.143733 0.140462 1.100026 0.076274 0.066820 1.002940 -0.131538 -0.107193 1.251069 0.127638 -0.216497 1.380821 0.113166 -0.134768 0.922118 -0.357767 0.024091 1.326726 0.209101 -0.252888 1.190442 0.296472 -0.020962 1.500376
+ready time: 0.0
+strokeStart time: 0.0
+emphasis time: 0.0
+stroke time: 0.0
+relax time: 0.0
+

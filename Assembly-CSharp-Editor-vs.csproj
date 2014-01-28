@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{3CC9D2C0-C461-07D9-EDF3-4FFB4DE5C299}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_2_1;UNITY_4_2;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity4/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity4/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Editor\CreatePackages.cs" />
+     <Compile Include="Assets\Editor\ImportSettings.cs" />
+     <Compile Include="Assets\vhAssets\Editor\AGChangeMaterialShader.cs" />
+     <Compile Include="Assets\vhAssets\Editor\AGGSPrefabs.cs" />
+     <Compile Include="Assets\vhAssets\Editor\AGPrefabs.cs" />
+     <Compile Include="Assets\vhAssets\Editor\BuildPlayer.cs" />
+     <Compile Include="Assets\vhAssets\Editor\EditorCameraWindow.cs" />
+     <Compile Include="Assets\vhAssets\Editor\EditorTimelineObjectManager.cs" />
+     <Compile Include="Assets\vhAssets\Editor\FbxToSbmConverter.cs" />
+     <Compile Include="Assets\vhAssets\Editor\ImportSettingsWindow.cs" />
+     <Compile Include="Assets\vhAssets\Editor\SBMWindow.cs" />
+     <Compile Include="Assets\vhAssets\Editor\SceneAnalyzerWindow.cs" />
+     <Compile Include="Assets\vhAssets\Editor\StopSceneWhenCompiling.cs" />
+     <Compile Include="Assets\vhAssets\Editor\SuggestionWindow.cs" />
+     <Compile Include="Assets\vhAssets\Editor\TimelineInput.cs" />
+     <Compile Include="Assets\vhAssets\Editor\TimelineWindow.cs" />
+     <Compile Include="Assets\vhAssets\Editor\VHAssetPostProcessor.cs" />
+     <Compile Include="Assets\vhAssets\Editor\VHMenuItems.cs" />
+     <Compile Include="Assets\vhAssets\Machinima\Editor\CutsceneEditor.cs" />
+     <Compile Include="Assets\vhAssets\Machinima\Editor\CutsceneEditorInput.cs" />
+     <Compile Include="Assets\vhAssets\Machinima\Editor\CutsceneIO.cs" />
+     <Compile Include="Assets\vhAssets\Machinima\Editor\CutsceneOrderPopup.cs" />
+     <Compile Include="Assets\vhAssets\Machinima\Editor\EditorCutsceneManager.cs" />
+     <Compile Include="Assets\vhAssets\Machinima\Editor\StringEditPopup.cs" />
+     <Compile Include="Assets\vhAssets\Machinima\Editor\TimeSimulationPopup.cs" />
+     <Compile Include="Assets\vhAssets\Machinima\Editor\UnitySequencerIO.cs" />
+     <Compile Include="Assets\vhAssets\mecanim\Editor\FaceFXControllerScriptGUI.cs" />
+     <None Include="Assets\vhAssets\shaders\AGDoubleSidedDiffuseAlpha.shader" />
+     <None Include="Assets\vhAssets\shaders\AGDiffuseSpecularNormalAlpha.shader" />
+     <None Include="Assets\Mecanim\bradFaceFX.xml" />
+     <None Include="Assets\vhAssets\shaders\AGDiffuseSpecularNormal.shader" />
+     <None Include="Assets\vhAssets\shaders\ICT_HybridNormalShader_v2.shader" />
+     <None Include="Assets\StreamingAssets\Sounds\z_viseme_test2.txt" />
+     <None Include="Assets\vhAssets\shaders\AGAnisotropicDoubleSidedDiffuseNormalAlphaTest.shader" />
+     <None Include="Assets\vhAssets\shaders\ICT_HybridNormalShader_v3.shader" />
+     <None Include="Assets\vhAssets\shaders\AGEye.shader" />
+     <None Include="Assets\vhAssets\shaders\AGDiffuseSpecularNormalDark.shader" />
+     <None Include="Assets\vhAssets\shaders\AGEffectBrightness.shader" />
+     <None Include="Assets\StreamingAssets\fileListExtract.txt" />
+     <None Include="Assets\vhAssets\shaders\AGDoubleSidedDiffuse.shader" />
+     <None Include="Assets\vhAssets\shaders\AGInvisibleShadowCaster.shader" />
+     <None Include="Assets\vhAssets\shaders\AGDoubleSidedDiffuseAlphaTest.shader" />
+     <None Include="Assets\vhAssets\shaders\AGAnisotropicDiffuseNormalAlphaTest.shader" />
+     <None Include="Assets\vhAssets\shaders\AGEyeShell.shader" />
+     <None Include="Assets\vhAssets\shaders\ICT_EyeShader_with_cubemap.shader" />
+     <None Include="Assets\vhAssets\shaders\ICT_HybridNormalShader_v4_BlendShapes.shader" />
+     <None Include="Assets\StreamingAssets\Sounds\brad_fullname.txt" />
+     <None Include="Assets\vhAssets\shaders\ICT_HybridNormalShader_v3_BlendShapes.shader" />
+     <None Include="Assets\vhAssets\shaders\AGEffectSaturation.shader" />
+     <None Include="Assets\StreamingAssets\fileList.txt" />
+ <Reference Include="Apache.NMS.ActiveMQ">
+ <HintPath>Assets\Plugins\Apache.NMS.ActiveMQ.dll</HintPath>
+ </Reference>
+ <Reference Include="Apache.NMS">
+ <HintPath>Assets\Plugins\Apache.NMS.dll</HintPath>
+ </Reference>
+ <Reference Include="Ionic.Zlib">
+ <HintPath>Assets\Plugins\Ionic.Zlib.dll</HintPath>
+ </Reference>
+ <Reference Include="vhmsg-net">
+ <HintPath>Assets\Plugins\vhmsg-net.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>C:\Program Files (x86)\Unity4\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions">
+ <HintPath>C:\Program Files (x86)\Unity4\Editor\Data\PlaybackEngines\iPhonePlayer\EditorExtensions\UnityEditor.iOS.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WP8.Extensions">
+ <HintPath>C:\Program Files (x86)\Unity4\Editor\Data\PlaybackEngines\WP8Support\EditorExtensions\UnityEditor.WP8.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Metro.Extensions">
+ <HintPath>C:\Program Files (x86)\Unity4\Editor\Data\PlaybackEngines\MetroSupport\EditorExtensions\UnityEditor.Metro.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.BB10.Extensions">
+ <HintPath>C:\Program Files (x86)\Unity4\Editor\Data\PlaybackEngines\BB10Player\EditorExtensions\UnityEditor.BB10.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Android.Extensions">
+ <HintPath>C:\Program Files (x86)\Unity4\Editor\Data\PlaybackEngines\AndroidPlayer\EditorExtensions\UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-vs.csproj">
+      <Project>{5B580621-09B4-68CB-B5F4-5B9DD210A60F}</Project>      <Name>Assembly-CSharp-vs</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

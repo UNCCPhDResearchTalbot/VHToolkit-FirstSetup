@@ -1,0 +1,1 @@
+robocopy %1 %2 /MIR /NDL

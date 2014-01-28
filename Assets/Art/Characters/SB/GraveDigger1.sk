@@ -1,0 +1,211 @@
+# SK Skeleton Definition
+# File generated with FbxConverter.exe v1.0    Units: m  Joints: 41  Channels: 0
+
+set_name GraveDigger1
+
+skeleton
+root mixamorig:Hips 
+{ offset 0.000000 99.212400 -2.920975
+  prerot  axis 0.000000 0.000000 0.000000 ang 0.000000 
+
+joint mixamorig:LeftUpLeg 
+{ offset 10.058985 -6.820449 -0.134114
+  prerot  axis 0.001007 0.066781 -0.997767 ang 178.276093 
+
+joint mixamorig:LeftLeg 
+{ offset 0.000000 44.422997 -0.000000
+  prerot  axis 0.963817 -0.016148 -0.266077 ang 7.205980 
+
+  joint mixamorig:LeftFoot 
+  { offset 0.000000 33.435734 -0.000000
+    prerot  axis 0.999571 0.026042 -0.013372 ang 54.378098 
+
+    joint mixamorig:LeftToeBase 
+    { offset -0.000000 24.632643 0.000001
+      prerot  axis 0.996882 -0.075669 0.022364 ang 33.027206 
+
+      joint mixamorig:LeftToe_End 
+      { offset -0.000000 9.293429 -0.000000
+        prerot  axis 0.000000 0.000000 0.000000 ang 0.000000 
+      }
+    }
+  }
+}
+}
+
+joint mixamorig:RightUpLeg 
+{ offset -10.058985 -6.820449 0.001954
+  prerot  axis 0.000966 -0.064040 0.997947 ang 178.274536 
+
+joint mixamorig:RightLeg 
+{ offset -0.000000 44.390897 -0.000000
+  prerot  axis 0.943913 0.015819 0.329816 ang 5.817978 
+
+  joint mixamorig:RightFoot 
+  { offset -0.000000 33.450635 -0.000000
+    prerot  axis 0.999588 -0.025438 0.013306 ang 55.244766 
+
+    joint mixamorig:RightToeBase 
+    { offset 0.000000 24.475830 0.000000
+      prerot  axis 0.996986 0.074354 -0.022124 ang 33.235313 
+
+      joint mixamorig:RightToe_End 
+      { offset 0.000000 9.134658 -0.000000
+        prerot  axis 0.000000 0.000000 0.000000 ang 0.000000 
+      }
+    }
+  }
+}
+}
+joint mixamorig:Spine 
+{ offset 0.000000 12.283320 -0.482498
+  prerot  axis -1.000000 0.000000 0.000000 ang 2.249315 
+
+joint mixamorig:Spine1 
+{ offset 0.000000 14.341599 -0.000000
+  prerot  axis 0.000000 0.000000 0.000000 ang 0.000000 
+
+  joint mixamorig:Spine2 
+  { offset 0.000000 16.390384 -0.000000
+    prerot  axis 0.000000 0.000000 0.000000 ang 0.000000 
+
+    joint mixamorig:LeftShoulder 
+    { offset 5.859827 15.826130 -0.110702
+      prerot  axis -0.635735 -0.419599 0.647902 ang 224.753006 
+
+      joint mixamorig:LeftArm 
+      { offset -0.000000 12.781470 -0.000000
+        prerot  axis 0.998784 -0.008652 -0.048541 ang 20.236597 
+
+        joint mixamorig:LeftForeArm 
+        { offset 0.000000 25.345131 0.000001
+          prerot  axis -0.924760 -0.039079 0.378539 ang 12.739751 
+
+          joint mixamorig:LeftHand 
+          { offset 0.000000 28.188237 -0.000000
+            prerot  axis -0.016711 0.978448 0.205816 ang 28.347105 
+
+            joint mixamorig:LeftHandIndex1 
+            { offset -0.000000 9.321412 0.198112
+              prerot  axis 0.212299 -0.017445 -0.977049 ang 9.615003 
+
+              joint mixamorig:LeftHandIndex2 
+              { offset 0.747497 7.043591 -0.000000
+                prerot  axis 1.000000 -0.000000 -0.000000 ang 47.598240 
+
+                joint mixamorig:LeftHandIndex3 
+                { offset -0.783323 4.772297 0.000000
+                  prerot  axis -1.000000 0.000000 0.000000 ang 31.403818 
+
+                  joint mixamorig:LeftHandIndex4 
+                  { offset 0.035827 2.505644 0.000000
+                    prerot  axis 0.000000 0.000000 0.000000 ang 0.000000 
+                  }
+                }
+              }
+            }
+            joint mixamorig:LeftHandThumb1 
+            { offset -3.459065 6.191244 0.000004
+              prerot  axis -0.000003 -0.000000 1.000000 ang 17.554895 
+
+              joint mixamorig:LeftHandThumb2 
+              { offset -1.144458 5.556975 -0.000000
+                prerot  axis 1.000000 -0.000000 -0.000000 ang 12.049146 
+
+                joint mixamorig:LeftHandThumb3 
+                { offset 0.067182 4.288011 0.000000
+                  prerot  axis -1.000000 0.000000 -0.000000 ang 9.155740 
+
+                  joint mixamorig:LeftHandThumb4 
+                  { offset 1.077276 2.718700 0.000000
+                    prerot  axis 0.000000 0.000000 0.000000 ang 0.000000 
+                  }
+                }
+              }
+            }
+
+          }
+        }
+      }
+    }
+
+    joint mixamorig:Neck 
+    { offset 0.000000 18.439199 0.000001
+      prerot  axis 1.000000 0.000000 0.000000 ang 2.249315 
+
+      joint mixamorig:Head 
+      { offset 0.000000 2.588711 0.449675
+        prerot  axis 0.000000 0.000000 0.000000 ang 0.000000 
+
+        joint mixamorig:HeadTop_End 
+        { offset 0.000000 43.692899 7.589723
+          prerot  axis 0.000000 0.000000 0.000000 ang 0.000000 
+        }
+      }
+    }
+
+    joint mixamorig:RightShoulder 
+    { offset -5.859827 15.825498 -0.094608
+      prerot  axis -0.636792 0.419089 -0.647194 ang 224.815460 
+
+      joint mixamorig:RightArm 
+      { offset 0.000000 12.781470 -0.000000
+        prerot  axis 0.999120 0.007362 0.041289 ang 20.236324 
+
+        joint mixamorig:RightForeArm 
+        { offset 0.000000 25.345109 -0.000001
+          prerot  axis -0.939160 0.035388 -0.341653 ang 12.587211 
+
+          joint mixamorig:RightHand 
+          { offset -0.000000 28.180354 0.000000
+            prerot  axis -0.076107 -0.995910 -0.048688 ang 30.108013 
+
+            joint mixamorig:RightHandIndex1 
+            { offset -0.000000 9.951431 0.258965
+              prerot  axis 0.977521 -0.023235 -0.209554 ang 12.942532 
+
+              joint mixamorig:RightHandIndex2 
+              { offset -0.546177 6.063580 0.000000
+                prerot  axis 1.000000 0.000000 0.000000 ang 18.271364 
+
+                joint mixamorig:RightHandIndex3 
+                { offset 0.395980 5.075140 0.000000
+                  prerot  axis -1.000000 0.000000 -0.000000 ang 0.189746 
+
+                  joint mixamorig:RightHandIndex4 
+                  { offset 0.150197 1.818411 0.000000
+                    prerot  axis 0.000000 0.000000 0.000000 ang 0.000000 
+                  }
+                }
+              }
+            }
+            joint mixamorig:RightHandThumb1 
+            { offset 4.027179 6.040750 0.000001
+              prerot  axis -0.000004 0.000001 -1.000000 ang 21.138857 
+
+              joint mixamorig:RightHandThumb2 
+              { offset 1.262167 5.669266 0.000000
+                prerot  axis 1.000000 0.000000 0.000000 ang 11.378263 
+
+                joint mixamorig:RightHandThumb3 
+                { offset -0.070495 4.179475 0.000000
+                  prerot  axis -1.000000 0.000000 -0.000000 ang 6.059013 
+
+                  joint mixamorig:RightHandThumb4 
+                  { offset -1.191672 2.255001 -0.000000
+                    prerot  axis 0.000000 0.000000 0.000000 ang 0.000000 
+                  }
+                }
+              }
+            }
+
+          }
+        }
+      }
+    }
+  }
+}
+}
+
+}
+end

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bml>
+    <speech id="sp1" start="0.0" ready="0.1" stroke="0.1" relax="0.2" end="0.2">
+        <text>
+            <sync id="T0" time="12.94" />test
+            <sync id="T1" time="16.51" />
+        </text>
+        <description level="1" type="audio/x-wav">
+            <file ref="Bill_Ford.test2" />
+        </description>
+    </speech>
+    <lips viseme="_" articulation="1.0" start="0" ready="0" relax="0.33" end="0.33" />
+    <lips viseme="_" articulation="1.0" start="6.51" ready="6.51" relax="6.871375" end="6.871375" />
+    <curves>
+	  <curve name="open" num_keys="4" owner="user">1.000000 0.000000 0.000000 0.000000 1.250000 1.000000 0.000000 0.000000 1.750000 1.000000 0.000000 0.000000 2.000000 0.000000 0.000000 0.000000 </curve>
+      <curve name="W" num_keys="4" owner="user">3.000000 0.000000 0.000000 0.000000 3.250000 1.000000 0.000000 0.000000 3.750000 1.000000 0.000000 0.000000 4.000000 0.000000 0.000000 0.000000 </curve>
+      <curve name="ShCh" num_keys="4" owner="user">5.000000 0.000000 0.000000 0.000000 5.250000 1.000000 0.000000 0.000000 5.750000 1.000000 0.000000 0.000000 6.000000 0.000000 0.000000 0.000000 </curve>
+      <curve name="PBM" num_keys="4" owner="user">7.000000 0.000000 0.000000 0.000000 7.250000 1.000000 0.000000 0.000000 7.750000 1.000000 0.000000 0.000000 8.000000 0.000000 0.000000 0.000000 </curve>
+      <curve name="FV" num_keys="4" owner="user">9.000000 0.000000 0.000000 0.000000 9.250000 1.000000 0.000000 0.000000 9.750000 1.000000 0.000000 0.000000 10.000000 0.000000 0.000000 0.000000 </curve>
+      <curve name="wide" num_keys="4" owner="user">11.000000 0.000000 0.000000 0.000000 11.250000 1.000000 0.000000 0.000000 11.750000 1.000000 0.000000 0.000000 12.000000 0.000000 0.000000 0.000000 </curve>
+      <curve name="tBack" num_keys="4" owner="user">13.000000 0.000000 0.000000 0.000000 13.250000 1.000000 0.000000 0.000000 13.750000 1.000000 0.000000 0.000000 14.000000 0.000000 0.000000 0.000000 </curve>
+      <curve name="tRoof" num_keys="4" owner="user">15.000000 0.000000 0.000000 0.000000 15.250000 1.000000 0.000000 0.000000 15.750000 1.000000 0.000000 0.000000 16.000000 0.000000 0.000000 0.000000 </curve>
+      <curve name="tTeeth" num_keys="4" owner="user">17.000000 0.000000 0.000000 0.000000 17.250000 1.000000 0.000000 0.000000 17.750000 1.000000 0.000000 0.000000 18.000000 0.000000 0.000000 0.000000 </curve>      
+      <curve name="Blink" num_keys="0" owner="analysis" />
+      <curve name="Eye Pitch" num_keys="0" owner="user" />
+      <curve name="Eye Yaw" num_keys="0" owner="user" />
+      <curve name="Eyebrow Raise" num_keys="0" owner="user" />
+      <curve name="Head Pitch" num_keys="0" owner="user" />
+      <curve name="Head Roll" num_keys="0" owner="user" />
+      <curve name="Head Yaw" num_keys="0" owner="user" />
+      <curve name="Squint" num_keys="0" owner="user" />
+    </curves>
+</bml>

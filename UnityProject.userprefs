@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\InitGraveDigger1.cs">
+    <Files>
+      <File FileName="Assets\Scripts\InitGraveDigger1.cs" Line="10" Column="37" />
+      <File FileName="Assets\vhAssets\sbm\UnitySmartbodyCharacter.cs" Line="251" Column="53" />
+      <File FileName="Assets\vhAssets\sbm\SmartbodyManager.cs" Line="1280" Column="48" />
+      <File FileName="Assets\Scripts\Main.cs" Line="43" Column="48" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

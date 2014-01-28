@@ -1,0 +1,35 @@
+#!/bin/sh
+exec &> /tmp/postprocess_output.txt
+
+echo "PostprocessBuildPlayer"
+
+echo "Current folder: $PWD"
+
+# http://docs.unity3d.com/Documentation/Manual/BuildPlayerPipeline.html
+
+# $0 = this script's name
+# $1 = installPath - The current directory will be set to be the project folder, that is the folder containing the Assets folder
+# $2 = "dashboard", "standaloneWin32", "standaloneOSXIntel", "standaloneOSXPPC", "standaloneOSXUniversal", "webplayer"
+# $3 = What optimizations are applied. At the moment either "" or "strip" when Strip debug symbols is selected.
+# $4 = The name of the company set in the project settings
+# $5 = The name of the product set in the project settings
+# $6 = The default screen width of the player.
+# $7 = The default screen height of the player
+
+echo "installPath = '$1'"
+echo "platform    = '$2'"
+echo "opts        = '$3'"
+echo "company     = '$4'"
+echo "product     = '$5'"
+echo "width       = '$6'"
+echo "height      = '$7'"
+
+
+if [ "$2" == "iPhone" ]; then
+
+   python Assets/Editor/PostprocessXcodeModify.py $1
+
+fi
+
+
+echo "PostprocessBuildPlayer Done!"
